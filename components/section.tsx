@@ -17,7 +17,10 @@ export default function Section({
 				{title}
 			</h2>
 			<p className="mb-12 text-center">{description}</p>
-			{children}
+			{React.Children.map(children, (child) => {
+				if (!React.isValidElement(child)) return child;
+				return <div className="mb-4 last:mb-0">{child}</div>;
+			})}
 		</section>
 	);
 }

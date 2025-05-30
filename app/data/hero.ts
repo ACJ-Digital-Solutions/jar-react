@@ -1,5 +1,6 @@
 export const heroDetails = {
-	heading: "Smart, Secure, Simple Financial Management",
+	heading: "Trusted Auto Repair since 1995",
 	subheading:
-		"From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before"
+		"Serving Farmers Branch with expert auto repairs and outstanding customer service for all vehicles",
+	imageSrc: "@/public/japanese-auto-repair-specialist-front-farmers-branch.jpg"
 };

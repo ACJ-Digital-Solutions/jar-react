@@ -1,5 +1,83 @@
 @import "tailwindcss";
 
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+	--primary: #fed835;
+	--secondary: #304fff;
+
+	--primary-accent: #e5c230;
+	--foreground-accent: #454545;
+	--hero-background: #f3f3f5;
+}
+
 @theme {
-	--color-mint-500: oklch(0.72 0.11 178);
+	--color-primary: #d7241d;
+	--font-poppins: Poppins, sans-serif;
+	--font-inter: Inter, sans-serif;
+}
+
+body {
+	font-family: var(--font-poppins);
+	font-weight: var(--font-weight-normal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-inter);
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: var(--font-weight-semibold);
+}
+
+.btn-primary {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: var(--text-xl);
+	width: var(--container-3xs);
+	background-color: transparent;
+	color: var(--color-black);
+	text-align: center;
+	border: 1px solid var(--color-black);
+	padding: 15px 40px;
+	font-size: var(--text-lg);
+	font-weight: var(--font-weight-medium);
+	transition:
+		background-color 0.2s linear,
+		color 0.2s linear,
+		border-color 0.2s linear;
+}
+
+.btn-primary:hover {
+	background-color: var(--color-primary);
+	color: var(--color-black);
+}
+
+.btn-secondary {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: var(--text-xl);
+	width: var(--container-3xs);
+	background-color: var(--color-primary);
+	color: var(--color-white);
+	text-align: center;
+	border: 1px solid var(--color-primary);
+	padding: 15px 40px;
+	font-size: var(--text-lg);
+	font-weight: var(--font-weight-medium);
+	transition:
+		background-color 0.2s linear,
+		color 0.2s linear,
+		border-color 0.2s linear;
+}
+
+.btn-secondary:hover {
+	background-color: var(--color-white);
+	color: var(--color-black);
 }

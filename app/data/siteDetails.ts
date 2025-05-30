@@ -1,8 +1,8 @@
 export const siteDetails = {
-	siteName: "Finwise",
-	siteUrl: "https://finwise-omega.vercel.app/",
+	siteName: "Japanese Auto Repair",
+	siteUrl: "https://japaneseautospecialist.com",
 	metadata: {
-		title: "Finwise - Next.js and Tailwind CSS Landing Page Template",
+		title: "Japanese Auto Repair - Farmers Branch, TX | Since 1995",
 		description:
 			"Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency."
 	},

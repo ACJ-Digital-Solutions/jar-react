@@ -1,24 +1,25 @@
 import { IMenuItem } from "@/app/types";
+import { ROUTES } from "@/app/constants/routes";
 
 export const menuItems: IMenuItem[] = [
 	{
 		text: "Home",
-		url: "/"
+		url: ROUTES.HOME
 	},
 	{
 		text: "Services",
-		url: "/services"
+		url: ROUTES.SERVICES
 	},
 	{
 		text: "Vehicles",
-		url: "/vehicles"
+		url: ROUTES.VEHICLES
 	},
 	{
 		text: "About Us",
-		url: "/about"
+		url: ROUTES.ABOUT
 	},
 	{
 		text: "Contact",
-		url: "/contact"
+		url: ROUTES.CONTACT
 	}
 ];

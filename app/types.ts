@@ -14,3 +14,16 @@ export interface ISocials {
 	x?: string;
 	[key: string]: string | undefined;
 }
+
+export interface ICard {
+	title: string;
+	description: string;
+	icon?: string;
+	href?: string;
+}
+
+export interface IButton {
+	text: string;
+	className: string;
+	href?: string;
+}

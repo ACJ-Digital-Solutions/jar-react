@@ -1,5 +1,7 @@
 import { IMenuItem, ISocials } from "@/app/types";
 
+import { ROUTES } from "@/app/constants/routes";
+
 export const footerDetails: {
 	subheading: string;
 	quickLinks: IMenuItem[];
@@ -12,35 +14,28 @@ export const footerDetails: {
 	quickLinks: [
 		{
 			text: "Home",
-			url: "/"
+			url: ROUTES.HOME
 		},
 		{
 			text: "Services",
-			url: "/services"
+			url: ROUTES.SERVICES
 		},
 		{
 			text: "Vehicles",
-			url: "/vehicles"
+			url: ROUTES.VEHICLES
 		},
 		{
 			text: "About Us",
-			url: "/about"
+			url: ROUTES.ABOUT
 		},
 		{
 			text: "Contact",
-			url: "/contact"
+			url: ROUTES.CONTACT
 		}
 	],
-	email: "address@yoursite.com",
-	telephone: "+1 (123) 456-7890",
+	email: "japaneseautorepair@gmail.com",
+	telephone: "+1 (972) 241-4922",
 	socials: {
-		// github: 'https://github.com',
-		// x: 'https://twitter.com/x',
-		twitter: "https://twitter.com/Twitter",
-		facebook: "https://facebook.com",
-		// youtube: 'https://youtube.com',
-		linkedin: "https://www.linkedin.com",
-		// threads: 'https://www.threads.net',
-		instagram: "https://www.instagram.com"
+		facebook: "https://facebook.com"
 	}
 };
